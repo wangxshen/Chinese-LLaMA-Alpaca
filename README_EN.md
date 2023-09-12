@@ -1,4 +1,4 @@
-# [Chinese-LLaMA-Alpaca-2 v2.0](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2) released 13B model series. All users are recommended to upgrade.
+# [Chinese-LLaMA-Alpaca-2 v3.0](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2) released long context LLMs (16K)
 
 [**🇨🇳中文**](./README.md) | [**🌐English**](./README_EN.md) | [**📖文档/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**❓提问/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**💬讨论/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussions) | [**⚔️竞技场/Arena**](http://chinese-alpaca-arena.ymcui.com/)
 
@@ -73,6 +73,12 @@ To promote open research of large models in the Chinese NLP community, this proj
 ### ⚠️ User Notice (Must Read)
 
 The official [LLaMA models released by Facebook prohibit commercial use](https://github.com/facebookresearch/llama), and the official model weights have not been open-sourced (although there are many third-party download links available online). In order to comply with the relevant licenses, it is currently not possible to release the complete model weights. We appreciate your understanding. After Facebook fully opens up the model weights, this project will update its policies accordingly. **What is released here are the LoRA weights**, which can be seen as a "patch" for the original LLaMA model, and the complete weights can be obtained by merging the two.
+
+### Model Overview
+
+The following figure depicts all open-sourced models for our projects (including the [second-gen project](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)).
+
+![](./pics/models.png)
 
 ### Which model should I use?
 

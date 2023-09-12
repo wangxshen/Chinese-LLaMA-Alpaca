@@ -1,4 +1,4 @@
-# [Chinese-LLaMA-Alpaca-2 v2.0版本](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)推出13B版本模型，推荐所有用户升级至二代模型
+# [Chinese-LLaMA-Alpaca-2 v3.0版本](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)推出长上下文版（16K）模型
 
 [**🇨🇳中文**](./README.md) | [**🌐English**](./README_EN.md) | [**📖文档/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**❓提问/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**💬讨论/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussions) | [**⚔️竞技场/Arena**](http://chinese-alpaca-arena.ymcui.com/)
 
@@ -75,6 +75,12 @@
 ### 用户须知（必读）
 
 Facebook官方发布的[LLaMA模型禁止商用](https://github.com/facebookresearch/llama)，并且官方没有正式开源模型权重（虽然网上已经有很多第三方的下载地址）。为了遵循相应的许可，**这里发布的是LoRA权重**，可以理解为原LLaMA模型上的一个“补丁”，两者合并即可获得完整版权重。以下中文LLaMA/Alpaca LoRA模型无法单独使用，需要搭配[原版LLaMA模型](https://github.com/facebookresearch/llama)。请参考本项目给出的[合并模型](#合并模型)步骤重构模型。
+
+### 模型列表
+
+下图展示了本项目以及[二期项目](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)推出的所有大模型之间的关系。
+
+![](./pics/models.png)
 
 ### 模型选择指引
 
